@@ -1,9 +1,17 @@
-kdepim-runtime (4:4.10.2-1.1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.10.2-2.1) UNRELEASED; urgency=low
 
-  * Non-maintainer upload.
+  [ Pino Toscano ]
+  * Bump build dependencies according to the upstream requirements:
+    - kdelibs5-dev >= 4:4.10
+    - kdepimlibs5-dev >= 4:4.10.1
+    - libakonadi-dev >= 1.8
+    - shared-desktop-ontologies >= 0.10
+  * Bump akonadi-server dependency to >= 1.8.
+
+  [ Diane Trout ]
   * Link against kolab
 
- -- Diane Trout <diane@ghic.org>  Wed, 10 Apr 2013 22:45:24 -0700
+ -- Diane Trout <diane@ghic.org>  Wed, 17 Apr 2013 19:35:55 -0700
 
 kdepim-runtime (4:4.10.2-1) experimental; urgency=low
 
