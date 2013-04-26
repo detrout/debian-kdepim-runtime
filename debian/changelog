@@ -1,4 +1,14 @@
-kdepim-runtime (4:4.10.2-2.1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.10.2-3.1) experimental; urgency=low
+
+  * Shuffle around build-deps to work around aptitude.
+  * Take a patch from upstream to reduce the warnings from the nepomuk-feeder.
+
+  [ Diane Trout ]
+  * Link against kolab
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 22 Apr 2013 08:49:22 +0200
+
+kdepim-runtime (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Bump build dependencies according to the upstream requirements:
@@ -7,9 +17,6 @@ kdepim-runtime (4:4.10.2-2.1) UNRELEASED; urgency=low
     - libakonadi-dev >= 1.8
     - shared-desktop-ontologies >= 0.10
   * Bump akonadi-server dependency to >= 1.8.
-
-  [ Diane Trout ]
-  * Link against kolab
 
  -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:57:05 +0200
 
