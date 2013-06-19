@@ -3,9 +3,10 @@ Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <kiagiadakis.george@gmail.com>
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10),
- debhelper (>= 7.3.16), cmake, pkg-kde-tools (>= 0.12),
+ debhelper (>= 9), cmake, pkg-kde-tools (>= 0.12),
  kdepimlibs5-dev (>= 4:4.10.1), kdelibs5-dev (>= 4:4.10), libakonadi-dev (>= 1.8),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.10),
@@ -13,10 +14,10 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  libkolab-dev, libkolabxml-dev, libxerces-c-dev, 
  libboost-thread-dev, libboost-system-dev, libcalendaring-dev, 
  libcurl4-gnutls-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://pim.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim-runtime.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
